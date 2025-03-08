@@ -1,2 +1,2 @@
 #!/bin/bash
-docker rm -f $(docker ps -aq)
+podman rm -f $(podman ps -aq)
